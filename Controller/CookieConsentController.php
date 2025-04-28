@@ -19,7 +19,9 @@ use Symfony\Component\Routing\Attribute\Route;
 use Symfony\Component\Routing\RouterInterface;
 use Symfony\Contracts\Translation\TranslatorInterface;
 use Twig\Environment;
+use Symfony\Component\HttpKernel\Attribute\AsController;
 
+#[AsController]
 class CookieConsentController
 {
     /**
